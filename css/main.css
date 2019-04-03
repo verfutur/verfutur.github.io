@@ -1,0 +1,89 @@
+body{
+	background: url( "page-bg.png" );
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+h1{
+	display: block;
+	padding: 0.5em;
+}
+
+textarea, input{
+	background: #471b1b;
+	color: white;
+	font-family: sazanami gothic, ms gothic, mona;
+	border:1px solid black;
+	margin:0.1em 0.1em 0.1em 0.4em;
+	padding:0.2em;
+}
+
+body>a, #main, h1{
+	background: #371b1b;
+	margin: 1.5px;
+	
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	text-shadow: 0 0 1px #000,0 0 2px #000,0 0 3px #000,0 0 4px #000,0 0 5px #000,0 0 6px #000,0 0 7px #000;
+	color: white;
+}
+body>a{
+	display: inline-block;
+	padding: 0.2em;
+	width: 12em;
+}
+body>a:hover, body>a.active{
+	background: #ff2929;
+	text-shadow: 0 0 1px #500,0 0 2px #500,0 0 3px #500,0 0 4px #500,0 0 5px #500,0 0 6px #500,0 0 7px #500;
+}
+#main cite{
+	margin: 1.5px;
+}
+body>a cite{
+	vertical-align: middle;
+	
+	margin: 0.1em 0.4em 0.1em 0.1em;
+}
+body>a cite, #main cite{
+	border: 1px solid #ccc;
+}
+
+#main{
+	position: absolute;
+	left: 13em;
+	
+	margin-left: 0.4em;
+	padding: 0.5em;
+}
+
+.settings span{
+	width: 14em;
+	display: inline-block;
+	text-align: right;
+}
+.settings em{
+	background: yellow;
+	color: red;
+	border: red 2px solid;
+	text-shadow: none;
+	padding: 0.1em;
+	margin-left: 0.4em;
+}
+
+.text-explanation {
+	width: 40em;
+}
+
+.text-explanation span {
+	width: 5em;
+	display: inline-block;
+	text-align: right;
+	margin-right: 0.5em;
+}
+
+.textcell{text-align: center;vertical-align: middle; font-style: normal;}
