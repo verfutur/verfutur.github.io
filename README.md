@@ -1,1 +1,1 @@
-# verfutur.github.io
+Umineko Screenshot Generator
