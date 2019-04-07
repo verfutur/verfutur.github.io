@@ -436,7 +436,7 @@ function submit(){
 	nuke(main);
 	$$(main,'img',function(img){
 		img.alt="Screenshot preview is loading...";
-		img.src="http://verfutur.github.io/umineko.pl?"+
+		img.src="http://jbcs.info/Umineko/screenshot/umineko.pl?"+
 			"bg="+encodeURIComponent($('bg').className)+"&"+
 			"sprites="+encodeURIComponent(cspListText)+"&"+
 			cspText+
